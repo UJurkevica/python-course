@@ -10,3 +10,7 @@ ash_1 = "lower case + number"
 
 
 print(ash + " and " + ash_1)
+
+name = "Ash"
+output = f'Hello, {name}!'
+print(output)
