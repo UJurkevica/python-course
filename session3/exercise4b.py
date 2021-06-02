@@ -1,7 +1,7 @@
 counter = 0
 total_sum = 0
 while counter <= 500:
-    if (total_sum % 3 == 0):
+    if (counter % 3 == 0):
         total_sum = total_sum + counter
     counter = counter + 1
     print(f'Sum {total_sum}')
