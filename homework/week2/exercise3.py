@@ -12,6 +12,7 @@ def enter_number():
         except ValueError:
             print(f'{inputStr} is not integer!!')
             continue
+        #try allows to avoid error if not integer entered
 
     print(f' Total sum is {total}')
 
