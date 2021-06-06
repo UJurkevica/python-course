@@ -18,3 +18,14 @@ def new_number(num):
 
 new_number(4)
 new_number(13)
+
+def check_even(num2):
+    if num2 % 2 == 0:
+        is_even = True
+    else:
+        is_even = False
+    return is_even
+
+num2 = int(input('Enter a number '))
+is_even = check_even(num2)
+print(f'Is {num2} even? {is_even}')
