@@ -1,10 +1,14 @@
 def letter_count(word, letter):
     counter = 0
-    total_sum =0
-    while counter <= len(word):
-        if letter == word.count(letter):
-            total_sum = total_sum + letter
-        counter = letter + 1
-        print(f'Total of letters {letter} used in word {word} is {total_sum}')
+    for i in word.lower():
+        #print(i)
+        if i == letter.lower():
+            counter = counter + 1
+            #print(f'{counter}')
+            #print(len(word))
+    #print(f'{counter}')
+    print(f'Total of letters {letter} used in word {word} is {counter}')
 
 letter_count('Banana', 'a')
+letter_count('Banana', 'b')
+letter_count('Tarantula', 'T')
