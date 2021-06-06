@@ -12,3 +12,4 @@ def letter_count(word, letter):
 letter_count('Banana', 'a')
 letter_count('Banana', 'b')
 letter_count('Tarantula', 'T')
+letter_count('Tarantula', 'l')
