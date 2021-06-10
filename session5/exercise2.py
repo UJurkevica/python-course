@@ -55,10 +55,10 @@ for value in my_pokemon.values():
 for key in my_pokemon.keys():
     print(key)
 
-#my_pokemon = collections.defaultdict(list)
+
 my_pokemon['move'] = "Flame Wheel", "Agility"
 
 print(my_pokemon)
 
-for value2 in my_pokemon.values():
-    print(value2)
+for value in my_pokemon['move']:
+    print(value)

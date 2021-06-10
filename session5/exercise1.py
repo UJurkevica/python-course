@@ -43,8 +43,8 @@ for item in pokedex:
 
 #1g
 
-if 'Charizard' in pokedex:
-    print(f('Charizard is in the pokedex list'))
+if 'Charizard ' in pokedex:
+    print(f'Charizard is in the pokedex list')
 else:
     print("You don't have it!")
     
