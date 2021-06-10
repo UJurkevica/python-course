@@ -22,8 +22,12 @@ empty_dict['level'] = 10
 print(empty_dict)
 
 #3e
+count = 0
 for values in empty_dict['moves']:
     #print(values)
     if 'growl cut' in values:
         print("Cut move exist!")
+        count = count + 1
         break
+if count == 0:
+    print("Not found!")
