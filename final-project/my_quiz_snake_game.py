@@ -81,7 +81,6 @@ while running:
                     running = False
 
 
-
 clock = pygame.time.Clock()
 
 snake_block = 20
@@ -211,7 +210,7 @@ def game_loop():
         x1 += x1_change
         y1 += y1_change
         dis.fill(grey)
-        dis.blit(food_image_a,(foodx, foody, snake_block, snake_block) )
+        dis.blit(food_image_a, (foodx, foody, snake_block, snake_block))
         dis.blit(food_image_b, (foodx2, foody2, snake_block, snake_block))
         snake_Head = []
         snake_Head.append(x1)
