@@ -163,8 +163,8 @@ def game_loop():
     food_image_b = pygame.image.load("images/letter-B.png").convert()
     foodx = round(random.randrange(1, dis_width - snake_block) / snake_block) * snake_block
     foodx2 = round(random.randrange(1, dis_width - snake_block) / snake_block) * snake_block
-    foody = round(random.randrange(3, dis_height - snake_block) / snake_block) * snake_block
-    foody2 = round(random.randrange(3, dis_height - snake_block) / snake_block) * snake_block
+    foody = round(random.randrange(1, dis_height - snake_block) / snake_block) * snake_block
+    foody2 = round(random.randrange(1, dis_height - snake_block) / snake_block) * snake_block
 
     last_answer = ""
     currentScore = 0
@@ -240,9 +240,9 @@ def game_loop():
                 last_answer = "b"
 
             foodx = round(random.randrange(1, dis_width - snake_block) / snake_block) * snake_block
-            foody = round(random.randrange(3, dis_height - snake_block) / snake_block) * snake_block
+            foody = round(random.randrange(1, dis_height - snake_block) / snake_block) * snake_block
             foodx2 = round(random.randrange(1, dis_width - snake_block) / snake_block) * snake_block
-            foody2 = round(random.randrange(3, dis_height - snake_block) / snake_block) * snake_block
+            foody2 = round(random.randrange(1, dis_height - snake_block) / snake_block) * snake_block
             Length_of_snake += 1
 
         clock.tick(snake_speed)
